@@ -1,0 +1,162 @@
+.bwhead 
+ { 
+	font-family:'Courier', sans-serif;
+	margin: 10px;
+	margin-top: 0px;
+	padding 10px;
+ }
+ 
+ .name
+ {
+	text-decoration:none;
+	color: black;
+ }
+
+#menu-items 
+{
+	color: black;
+	font-size: 14px;
+	
+}
+
+#menu-items a
+{
+
+	color: black;
+	font-size: 14px;
+	text-decoration:none;
+	font-family:'Courier', sans-serif;
+}
+
+#menu-items a:hover
+{
+	animation: shake .8s infinite  alternate;
+	color: grey;
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-left: 20px;
+}
+
+
+.gallery
+ {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	align: center;
+	justify-content: center;
+	background-color: white;
+ }
+ 
+  .gallerygate
+ {
+	text-align: left;
+	margin: 10px;
+	padding 10px;
+	font-family:'Helvetica Neue', sans-serif;
+ }
+ 
+.bio 
+ {
+	text-align: left;
+	margin: 10px;
+	padding 10px;
+	font-family:'Courier', sans-serif;
+	margin-top: 20px;
+ }
+
+.biobig
+ {
+	text-align: left;
+	font-family:'Helvetica Neue', sans-serif;
+	margin-top: 20px;
+ }
+
+ 
+
+ 
+ .gallerylist 
+ {
+	list-style: none;
+	text-align: left;
+	padding-left: 0px;
+	margin: 0;
+	padding: 0;
+ }
+ 
+ ul 
+ {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+ }
+
+li
+ {
+	float: left;
+ }
+
+li a
+ {
+	display: block;
+	font-size: 14px;
+	font-family:'Courier', sans-serif;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+ }
+ 
+li a:hover 
+ {
+	background-color: black;
+	display: block;
+	font-size: 14px;
+	font-family:'Helvetica Neue', sans-serif;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+ }
+
+h1 
+ {
+  margin: 0px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 28px;
+ }
+
+h1:hover
+ {
+	 animation: shake .8s infinite  alternate;
+	 font-family: 'Helvetica Neue', sans-serif;
+	 font-size: 26px;
+ }
+
+footer
+ {
+	display: flex;
+	border-top: solid;
+	margin: 10px;
+	padding 10px;
+	padding-top: 10px;
+	margin-top: 20px;
+	font-family:'Courier', sans-serif;
+ }
+ 
+ footer pre
+  {
+   margin:0;
+  }
+
+@keyframes shake  
+ {
+  0% { transform: skewX(-15deg); }
+  2% { transform: skewX(15deg); }
+  3% { transform: skewX(-15deg); }
+  4% { transform: skewX(15deg); }
+  5% { transform: skewX(0deg); }
+  17%, 100% { transform: skewX(0deg); } 
+ }
+
