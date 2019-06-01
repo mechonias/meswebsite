@@ -140,7 +140,7 @@ h1:hover
 footer
  {
 	display: flex;
-	border-top: solid;
+	border-top: thin solid red;
 	margin: 10px;
 	padding 10px;
 	padding-top: 10px;
