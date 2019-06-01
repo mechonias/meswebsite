@@ -10,20 +10,21 @@
  {
 	text-decoration:none;
 	color: black;
+		font-size: 26px;
  }
 
-#menu-items 
+#menu-items
 {
 	color: black;
-	font-size: 14px;
-	
+	text-align: center;
+	font-size: 22px;
 }
 
 #menu-items a
 {
 
 	color: black;
-	font-size: 14px;
+	font-size: 20px;
 	text-decoration:none;
 	font-family:'Courier', sans-serif;
 }
@@ -31,9 +32,10 @@
 #menu-items a:hover
 {
 	animation: shake .8s infinite  alternate;
-	color: grey;
-	font-family: 'Helvetica Neue', sans-serif;
-	margin-left: 20px;
+	background-color: black;
+	font-size: 22px;
+	font-family:'Helvetica Neue', sans-serif;
+	color: white;
 }
 
 
@@ -62,13 +64,14 @@
 	padding 10px;
 	font-family:'Courier', sans-serif;
 	margin-top: 20px;
+	font-size: 12px;
  }
 
 .biobig
  {
 	text-align: left;
-	font-family:'Helvetica Neue', sans-serif;
-	margin-top: 20px;
+	font-family:'Courier', sans-serif;
+	margin-top: 18px;
  }
 
  
@@ -159,4 +162,5 @@ footer
   5% { transform: skewX(0deg); }
   17%, 100% { transform: skewX(0deg); } 
  }
+ 
 
